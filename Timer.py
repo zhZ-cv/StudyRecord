@@ -89,8 +89,8 @@ class Timer:
         while self.lastTime >= newTime:
             detailedCopy.pop(0)
             newTime = detailedCopy[0][0]
-        con = pymysql.connect(host='81.68.127.249', port=3306,
-                              user='root', password='Motr302030150.',
+        con = pymysql.connect(host='#####', port=3306,
+                              user='####', password='######',
                               db='StudyRecord', charset='utf8')
         try:
             with con.cursor() as cursor:
